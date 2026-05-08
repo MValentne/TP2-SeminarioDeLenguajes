@@ -11,5 +11,12 @@ namespace TP2Seminario
         {
 
         }
-    }
+
+        private void Btn_PuntoA_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+
+    }   
 }
