@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\INFOTECNO\\Documents\\GitHub\\TP2-SeminarioDeLenguajes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DD356B7-F640-3873-3EBD-64776A7768D9}|TP2Seminario.csproj|c:\\users\\infotecno\\documents\\github\\tp2-seminariodelenguajes\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5DD356B7-F640-3873-3EBD-64776A7768D9}|TP2Seminario.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DD356B7-F640-3873-3EBD-64776A7768D9}|TP2Seminario.csproj|c:\\users\\infotecno\\documents\\github\\tp2-seminariodelenguajes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DD356B7-F640-3873-3EBD-64776A7768D9}|TP2Seminario.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DD356B7-F640-3873-3EBD-64776A7768D9}|TP2Seminario.csproj|c:\\users\\infotecno\\documents\\github\\tp2-seminariodelenguajes\\tp2seminario.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5DD356B7-F640-3873-3EBD-64776A7768D9}|TP2Seminario.csproj|solutionrelative:tp2seminario.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\INFOTECNO\\Documents\\GitHub\\TP2-SeminarioDeLenguajes\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\INFOTECNO\\Documents\\GitHub\\TP2-SeminarioDeLenguajes\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T20:35:15.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\INFOTECNO\\Documents\\GitHub\\TP2-SeminarioDeLenguajes\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "C:\\Users\\INFOTECNO\\Documents\\GitHub\\TP2-SeminarioDeLenguajes\\Menu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Menu.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T20:35:06.175Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TP2Seminario",
+              "DocumentMoniker": "C:\\Users\\INFOTECNO\\Documents\\GitHub\\TP2-SeminarioDeLenguajes\\TP2Seminario.csproj",
+              "RelativeDocumentMoniker": "TP2Seminario.csproj",
+              "ToolTip": "C:\\Users\\INFOTECNO\\Documents\\GitHub\\TP2-SeminarioDeLenguajes\\TP2Seminario.csproj",
+              "RelativeToolTip": "TP2Seminario.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-08T20:35:02.97Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
