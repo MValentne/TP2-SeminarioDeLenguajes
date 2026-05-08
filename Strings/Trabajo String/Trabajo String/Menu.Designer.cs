@@ -30,6 +30,7 @@
         {
             Btn_PuntoA = new Button();
             Btn_PuntoB = new Button();
+            btn_PuntoC = new Button();
             SuspendLayout();
             // 
             // Btn_PuntoA
@@ -44,7 +45,7 @@
             // 
             // Btn_PuntoB
             // 
-            Btn_PuntoB.Location = new Point(144, 78);
+            Btn_PuntoB.Location = new Point(139, 78);
             Btn_PuntoB.Name = "Btn_PuntoB";
             Btn_PuntoB.Size = new Size(109, 71);
             Btn_PuntoB.TabIndex = 1;
@@ -52,11 +53,22 @@
             Btn_PuntoB.UseVisualStyleBackColor = true;
             Btn_PuntoB.Click += Btn_PuntoB_Click;
             // 
+            // btn_PuntoC
+            // 
+            btn_PuntoC.Location = new Point(268, 78);
+            btn_PuntoC.Name = "btn_PuntoC";
+            btn_PuntoC.Size = new Size(109, 71);
+            btn_PuntoC.TabIndex = 2;
+            btn_PuntoC.Text = "PuntoC";
+            btn_PuntoC.UseVisualStyleBackColor = true;
+            btn_PuntoC.Click += this.btn_PuntoC_Click;
+            // 
             // Menu_Inicio
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(676, 218);
+            Controls.Add(btn_PuntoC);
             Controls.Add(Btn_PuntoB);
             Controls.Add(Btn_PuntoA);
             Name = "Menu_Inicio";
@@ -68,5 +80,6 @@
 
         private Button Btn_PuntoA;
         private Button Btn_PuntoB;
+        private Button btn_PuntoC;
     }
 }
