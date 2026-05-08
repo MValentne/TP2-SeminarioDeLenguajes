@@ -17,14 +17,14 @@ namespace Trabajo_String
    
         private void btn_comprobar_Click(object sender, EventArgs e)
         {
-            if (!(String.IsNullOrEmpty(textBox1.Text) && String.IsNullOrEmpty(textBox2.Text)))
+            if (!(String.IsNullOrEmpty(textBox1.Text) || String.IsNullOrEmpty(textBox2.Text)))
             {
-                string caracter = textBox1.Text;
+                char caracter = textBox1.Text[0];
                 string cadena = textBox2.Text;
                 int contador = 0;
                 foreach (char c in cadena)
                 {
-                    if (c.ToString() == caracter)
+                    if (c == caracter)
                     {
                         contador++;
                     }

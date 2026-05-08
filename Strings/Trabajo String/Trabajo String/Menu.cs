@@ -25,5 +25,10 @@ namespace Trabajo_String
             PuntoC.ShowDialog();
         }
 
+        private void btn_PuntoD_Click(object sender, EventArgs e)
+        {
+            Form PuntoD = new PuntoD();
+            PuntoD.ShowDialog();
+        }
     }
 }

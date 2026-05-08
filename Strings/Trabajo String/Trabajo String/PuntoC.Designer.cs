@@ -89,6 +89,7 @@
             btn_comprobar.TabIndex = 5;
             btn_comprobar.Text = "Comprobar texto.";
             btn_comprobar.UseVisualStyleBackColor = true;
+            btn_comprobar.Click += btn_comprobar_Click;
             // 
             // panel1
             // 
@@ -121,7 +122,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "PuntoC";
-            Text = "PuntoC3";
+            Text = "PuntoC";
             panel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();

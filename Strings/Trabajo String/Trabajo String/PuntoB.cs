@@ -17,7 +17,7 @@ namespace Trabajo_String
 
         private void btn_comprobar_Click(object sender, EventArgs e)
         {
-            if (!(String.IsNullOrEmpty(textBox1.Text) && String.IsNullOrEmpty(textBox2.Text)))
+            if (!(String.IsNullOrEmpty(textBox1.Text) || String.IsNullOrEmpty(textBox2.Text)))
             {
                 string cadena1 = textBox1.Text;
                 string cadena2 = textBox2.Text;
@@ -25,7 +25,10 @@ namespace Trabajo_String
                 lbl_confirmacion.Text = $"Primer Cadena ingresada : {cadena1}" + $" \nSegunda Cadena ingresada : {cadena2}" +
                     $"\n ¿La primer cadena está dentro de la segunda? {Cadenamsg}";
             }
-
+            else
+            {
+                MessageBox.Show("Por favor, ingrese ambas cadenas.");
+            }
         }
     }
 
