@@ -16,5 +16,11 @@ namespace TP2_SeminarioLenguajes1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {   
+            //Imprime el tiempo actual
+            labelRespuesta.Text = DateTime.Now.ToString("HH:mm:ss");
+        }
     }
 }
