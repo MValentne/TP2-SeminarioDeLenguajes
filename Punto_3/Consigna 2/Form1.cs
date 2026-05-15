@@ -29,29 +29,49 @@ namespace Consigna_2
             nombre1 = txtNombre1.Text;
             nombre2 = txtNombre2.Text;
 
-            DateTime today = DateTime.Today;
+            edad1 = dtpNombre1.Value.Year;
+            edad2 = dtpNombre2.Value.Year;
+            //declaracion de meses
+            mes1 = dtpNombre1.Value.Month;
+            mes2 = dtpNombre2.Value.Month;
+            //declaracion de días
+            dia1 = dtpNombre1.Value.Day;
+            dia2 = dtpNombre2.Value.Day;
 
-            edad1 = today.Year - dtpNombre1.Value.Year;
-
-            edad2 = today.Year - dtpNombre2.Value.Year;
-
+            // diferencia de años
             int diferenciaEdad = Math.Abs(edad1 - edad2);
+            if (edad1 == edad2)
+            {
+                MessageBox.Show($"Nacieron el mismo año");
+            }
+            else
+            {
+                MessageBox.Show($"La diferencia de edad entre {nombre1} y {nombre2} es de {diferenciaEdad} años.");
+            }
 
-            MessageBox.Show($"La diferencia de edad entre {nombre1} y {nombre2} es de {diferenciaEdad} años.");
-
-            mes1 = today.Month - dtpNombre1.Value.Month;
-            mes2 = today.Month - dtpNombre2.Value.Month;
-
+            //diferencia de meses
             int diferenciaMes = Math.Abs(mes1 - mes2);
+            if (mes1 == mes2)
+            {
+                MessageBox.Show($"Nacieron el mismo mes");
 
-            MessageBox.Show($"La diferencia de mes entre {nombre1} y {nombre2} es de {diferenciaMes} meses.");
-
-            dia1 = today.Day - dtpNombre1.Value.Day;
-            dia2 =  today.Day - dtpNombre2.Value.Day;
-
+            }
+            else
+            {
+                MessageBox.Show($"La diferencia de mes entre {nombre1} y {nombre2} es de {diferenciaMes} meses.");
+            }
+           
+            //diferencia de días
             int diferenciaDias = Math.Abs(dia1 - dia2);
+            if (dia1 == dia2)
+            {
+                MessageBox.Show($"Nacieron el mismo día");
 
-            MessageBox.Show($"La diferencia de día entre {nombre1} y {nombre2} es de {diferenciaDias} días.");
+            }
+            else
+            {
+                MessageBox.Show($"La diferencia de día entre {nombre1} y {nombre2} es de {diferenciaDias} días.");
+            }
         }
     }
 }
