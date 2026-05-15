@@ -33,23 +33,20 @@
             this.buttonAceptar = new System.Windows.Forms.Button();
             this.textBoxNombre = new System.Windows.Forms.TextBox();
             this.dateTimePickerNacimiento = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePickerObjetivo = new System.Windows.Forms.DateTimePicker();
-            this.buttonCalcular = new System.Windows.Forms.Button();
             this.groupBoxUsuario.SuspendLayout();
             this.SuspendLayout();
             // 
             // labelRespuesta
             // 
             this.labelRespuesta.AutoSize = true;
-            this.labelRespuesta.Location = new System.Drawing.Point(30, 186);
+            this.labelRespuesta.Location = new System.Drawing.Point(276, 187);
             this.labelRespuesta.Name = "labelRespuesta";
-            this.labelRespuesta.Size = new System.Drawing.Size(228, 13);
+            this.labelRespuesta.Size = new System.Drawing.Size(81, 13);
             this.labelRespuesta.TabIndex = 0;
-            this.labelRespuesta.Text = "Cuantos anios se tendra en la siguiente fecha?";
+            this.labelRespuesta.Text = "Respuesta aqui";
             // 
             // groupBoxUsuario
             // 
-            this.groupBoxUsuario.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.groupBoxUsuario.Controls.Add(this.buttonAceptar);
             this.groupBoxUsuario.Controls.Add(this.textBoxNombre);
             this.groupBoxUsuario.Controls.Add(this.dateTimePickerNacimiento);
@@ -85,30 +82,11 @@
             this.dateTimePickerNacimiento.Size = new System.Drawing.Size(199, 20);
             this.dateTimePickerNacimiento.TabIndex = 3;
             // 
-            // dateTimePickerObjetivo
-            // 
-            this.dateTimePickerObjetivo.Location = new System.Drawing.Point(33, 202);
-            this.dateTimePickerObjetivo.Name = "dateTimePickerObjetivo";
-            this.dateTimePickerObjetivo.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePickerObjetivo.TabIndex = 3;
-            // 
-            // buttonCalcular
-            // 
-            this.buttonCalcular.Location = new System.Drawing.Point(33, 228);
-            this.buttonCalcular.Name = "buttonCalcular";
-            this.buttonCalcular.Size = new System.Drawing.Size(75, 23);
-            this.buttonCalcular.TabIndex = 4;
-            this.buttonCalcular.Text = "Calcular";
-            this.buttonCalcular.UseVisualStyleBackColor = true;
-            this.buttonCalcular.Click += new System.EventHandler(this.buttonCalcular_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(563, 416);
-            this.Controls.Add(this.buttonCalcular);
-            this.Controls.Add(this.dateTimePickerObjetivo);
+            this.ClientSize = new System.Drawing.Size(472, 450);
             this.Controls.Add(this.groupBoxUsuario);
             this.Controls.Add(this.labelRespuesta);
             this.Name = "Form1";
@@ -127,8 +105,6 @@
         private System.Windows.Forms.DateTimePicker dateTimePickerNacimiento;
         private System.Windows.Forms.Button buttonAceptar;
         private System.Windows.Forms.TextBox textBoxNombre;
-        private System.Windows.Forms.DateTimePicker dateTimePickerObjetivo;
-        private System.Windows.Forms.Button buttonCalcular;
     }
 }
 
